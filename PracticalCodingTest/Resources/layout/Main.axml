@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+    <!--  Layout Button User List-->
+
+    <Button
+        android:id="@+id/itemsButton"
+             android:drawableTop="@drawable/users"
+        android:layout_width="match_parent"
+         android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="List User" />
+  <!--  Layout Button User Add-->
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+      android:drawableTop="@drawable/adduser"
+        
+  android:gravity="center_horizontal" 
+        android:text="Add New User" />
+  <!--  Layout Button User Validate-->
+    <Button
+        android:id="@+id/ValidateButton"
+         android:drawableTop="@drawable/validate"
+         android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check User" />
+</LinearLayout>
